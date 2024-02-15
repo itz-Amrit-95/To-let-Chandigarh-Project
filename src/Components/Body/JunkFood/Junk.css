@@ -1,0 +1,74 @@
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.mySwiper0.swiper {
+    width: 100%;
+    height: 250px;
+}
+
+.mySwiper0.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    width: 100%;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.op.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mySwiper0.swiper-button-prev,
+.mySwiper0.swiper-button-next {
+  background-color: white;
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 50%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+
+    top: unset !important;
+    bottom: 0px;
+}
+
+.swiper-button-prev {
+    left: calc(47% - 30px) !important;
+}
+
+.swiper-button-next {
+    right: calc(47% - 30px) !important;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    font-size: 24px !important;
+    color: orangered;
+    font-weight: 800;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    font-size: 24px !important;
+    color:orangered;
+    font-weight: 800;
+}
+.img-anim:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}

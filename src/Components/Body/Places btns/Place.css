@@ -1,0 +1,37 @@
+.have-btn-type-place {
+
+    padding: 16px;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(2, 6, 12, 0.1);
+    border-radius: 12px;
+
+    height: auto;
+}
+
+.have-btn-type-place h3 {
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    overflow-wrap: break-word;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-align: center;
+}
+#margin-take{
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+.have-btn-type-place:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+    background-color: rgb(176, 176, 176);
+    color: white;
+
+}
+.have-btn-type-place:hover h3{
+   color: white;
+}
